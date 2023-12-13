@@ -1,4 +1,4 @@
-"""clacu"""
+"""calcu"""
 n1 = ""
 print("Bienvenido a la calculadora, para salir escribe salir")
 print("Las operciones son: suma, resta, multi y div")
@@ -24,7 +24,7 @@ while True:
             n1 *= n2
         elif operacion == "div" :
             n1 /= n2
-        else: 
+        else:
             print("Operacion no valida")
             break
         print(f"El resultado es: {n1}")    

@@ -18,7 +18,7 @@ while finish is False:
         print("Operacion exitosa")
         finish= True
     elif pago == 2:
-        print("Por favor cancelar en su dis tribuidor mas cercano")
+        print("Por favor cancelar en su distribuidor mas cercano")
         print("Esperamos su visita")
         finish= True
     elif pago == 3:
