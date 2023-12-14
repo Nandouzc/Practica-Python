@@ -68,4 +68,23 @@
 #     print("La tabla que selecciono no es correcta")    
 
 
+# def suma():
+#     n1 = int(input("Ingrese un numero "))
+#     n2 = int(input("Ingrese otro numero "))
+#     print(f"El resultado es {n1 + n2}")
 
+# suma()
+
+# def crear_contraseña(num):
+#     chars = "ghvfgdhhuj"
+#     numero_entero = str(num)
+#     num = int(numero_entero[0])
+#     c1 = num - 2
+#     c2 = num
+#     c3 = num + 5 
+#     contraseña = f"{chars[c1]}{chars[c2]}{chars[c3]}{num * 2}" 
+#     return contraseña
+
+# password = crear_contraseña(3)
+# frase = f"Tu contraseña es {password}"
+# print(frase)
