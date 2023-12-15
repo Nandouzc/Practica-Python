@@ -88,3 +88,16 @@
 # password = crear_contraseña(3)
 # frase = f"Tu contraseña es {password}"
 # print(frase)
+
+list = []
+
+while True:   
+    numero= input("ingrese un numero, escriba listo cuando esten todos los numeros ")
+    if numero.lower()=="listo":
+        break
+    numero = int(numero)
+    
+    list.append(numero)
+    print(list)   
+lista = sorted(list)
+print(f"El numero mayor es : {lista[-1]}")
