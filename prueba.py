@@ -75,6 +75,8 @@
 
 # suma()
 
+
+
 # def crear_contraseña(num):
 #     chars = "ghvfgdhhuj"
 #     numero_entero = str(num)
@@ -89,6 +91,25 @@
 # frase = f"Tu contraseña es {password}"
 # print(frase)
 
+
+
+
+
+
+
+# def generaPares(limite):
+#     num = 1
+#     while num<limite:
+#         yield num*2
+#         num+=1
+
+# devuelve_pares = generaPares(5)
+# print(next(devuelve_pares))        
+# print("texto")
+# print(next(devuelve_pares))
+
+
+
 list = []
 
 while True:   
@@ -98,7 +119,12 @@ while True:
     numero = int(numero)
     
     list.append(numero)
-    print(list)   
-lista = sorted(list)
-print(f"El numero mayor es : {lista[-1]}")
+mayor = None
 
+for numero in list:
+    if mayor==None:
+        mayor = numero
+    else :
+        if numero>mayor:
+            mayor = numero
+print(f"El numero mayor es : {mayor}")           
